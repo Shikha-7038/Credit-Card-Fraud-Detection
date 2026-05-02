@@ -75,7 +75,9 @@ Logistic Regression	0.89+	0.65+	0.75+	0.62+	0.68+
 
 Key Insights
 Top predictors: amount, transaction hour, velocity features
+
 Fraud patterns: Higher at night, larger amounts, international
+
 Optimal threshold: ~0.3-0.4 balances precision/recall
 
 📊 Visualizations
@@ -98,7 +100,11 @@ Feature importance - Top fraud indicators
 💡 Interpretation Guide
 
 Metric	Good Value	Why It Matters
+
 Recall	> 0.70	Catching fraud (FN cost high)
+
 Precision	> 0.50	Avoiding false alerts (FP cost)
+
 PR-AUC	> 0.70	Better for imbalanced data
+
 Optimal Threshold	0.3-0.5	Business cost dependent

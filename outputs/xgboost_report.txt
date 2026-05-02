@@ -1,0 +1,16 @@
+Fraud Detection Model Evaluation Report - XGBoost
+============================================================
+
+Optimal Threshold: 0.9998
+
+Metrics at Optimal Threshold:
+  threshold: 0.9997660517692566
+  true_negatives: 9949
+  false_positives: 1
+  false_negatives: 16
+  true_positives: 34
+  precision: 0.9714285714285714
+  recall: 0.68
+  specificity: 0.9998994974874372
+  accuracy: 0.9983
+  f1_score: 0.8
